@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities{
+  .font-jetbrains{
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+body{
+  background-color: #060E20;
+  font-family: "Inter", sans-serif;
+}
