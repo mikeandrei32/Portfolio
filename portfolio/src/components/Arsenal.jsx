@@ -8,7 +8,7 @@ const Arsenal = () => {
         <div id='Arsenal' className="h-[80vh] text-white flex flex-col justify-center items-center mb-10">
             <p className="text-[36px] text-[#DAE2FD] font-bold">Technical Arsenal</p>
             <p className="text-[12px] text-[#BCC9CD] font-jetbrains mb-15">Tools of the trade</p>
-            <div className='flex gap-10'>
+            <div className='flex flex-wrap gap-10'>
                 <div className='bg-[#171F33] w-60 h-80 rounded-xl pt-8 ps-8'>
                     <img src={ frontendImg } className='p-3 bg-[#dae2fd14] w-10 rounded-md mb-4.5'/>
                     <p className='text-[20px] text-[#DAE2FD] font-bold mb-4.5'>Frontend</p>

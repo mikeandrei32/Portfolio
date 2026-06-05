@@ -4,7 +4,7 @@ import terminal from '../assets/terminal.png'
 
 const Hero = () => {
     return(
-        <div className="h-screen flex justify-evenly items-center px-10 gap-10">
+        <div id='Home' className="h-screen flex justify-evenly items-center px-10 gap-10">
             <div>
                 <div className='bg-[#171F33] w-60 h-8 rounded-2xl flex flex-row items-center justify-center gap-1 mb-3'>
                     <img src={dot}/>
