@@ -4,7 +4,7 @@ import profile from '../assets/profile.jpg'
 
 const Home = () => {
     return(
-        <section className="mt-25 ms-30 flex gap-30">
+        <section id='home' className="h-155 mt-20 ms-30 flex gap-30">
             <div>
                 <button className="ring-2 ring-violet-500/50 py-2 px-4 mb-5 text-violet-500 text-xs rounded-lg">Ready to Innovate</button>
                 <h1 className="font-sans font-semibold text-white text-7xl w-100">Front-End <span className="text-violet-500">Developer</span></h1>
@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
                 <div className="flex gap-5 mt-7">
                     <div className='flex gap-2 ring-2 ring-violet-500 rounded-xl py-3 px-7'>
-                        <a href="#" className="text-white text-sm">Download CV </a>
+                        <a href="#" className="text-white text-sm">Download CV</a>
                         <img src={ downloadLogo } alt="Download Logo" className='w-5 invert brightness-0' />
                     </div>
                     <div className='flex gap-2 ring-2 ring-violet-500 rounded-xl py-3 px-9'>
@@ -44,8 +44,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center items-center'>
-                <img src={ profile } alt="Profile Picture" className='w-100 rounded-xl object-cover shadow-2xl shadow-black/50' />
+            <div className='flex justify-center items-start'>
+                <img src={ profile } alt="Profile Picture" className='w-90 rounded-xl object-cover shadow-2xl shadow-black/50' />
             </div>
         </section>
     );
