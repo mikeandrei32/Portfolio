@@ -3,7 +3,9 @@
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
     --font-mono: 'Geist Mono', monospace;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #18181b;
     font-family: var(--font-mono);
