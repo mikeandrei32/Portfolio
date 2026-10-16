@@ -1,0 +1,54 @@
+{
+  "displayName": "Mike Andrei M. Gomez",
+  "title": "Full Stack Developer",
+  "introduction": "an aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy working on both frontend and backend development, continuously improving my skills, and turning ideas into functional digital solutions.",
+  "education": {
+    "school": "Manuel S. Enverga University Foundation",
+    "degree": "Information Technology",
+    "specialization": "Specialization in Web and Mobile Development"
+  },
+  "skills": [
+    {
+      "name": "React",
+      "symbol": "⚛",
+      "className": "react-icon"
+    },
+    {
+      "name": "ASP.NET",
+      "symbol": ".NET",
+      "className": "dotnet-icon"
+    },
+    {
+      "name": "SQL",
+      "symbol": "SQL",
+      "className": "sql-icon"
+    },
+    {
+      "name": "C#",
+      "symbol": "C#",
+      "className": "csharp-icon"
+    },
+    {
+      "name": "JavaScript",
+      "symbol": "JS",
+      "className": "js-icon"
+    },
+    {
+      "name": "Tailwind CSS",
+      "symbol": "≈",
+      "className": "tailwind-icon"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "symbol": "◇",
+      "className": "git-icon"
+    },
+    {
+      "name": "Vite",
+      "symbol": "ϟ",
+      "className": "vite-icon"
+    }
+  ]
+}
