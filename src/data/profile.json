@@ -1,6 +1,6 @@
 {
   "displayName": "Mike Andrei M. Gomez",
-  "title": "Full Stack Developer",
+  "title": "Back-End Developer",
   "introduction": "an aspiring Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy working on both frontend and backend development, continuously improving my skills, and turning ideas into functional digital solutions.",
   "education": {
     "school": "Manuel S. Enverga University Foundation",
@@ -49,6 +49,21 @@
       "name": "Vite",
       "symbol": "ϟ",
       "className": "vite-icon"
+    },
+    {
+      "name": "GitHub",
+      "icon": "/images/github.svg",
+      "className": "github-icon"
+    },
+    {
+      "name": "Vercel",
+      "symbol": "▲",
+      "className": "vercel-icon"
+    },
+    {
+      "name": "VS Code",
+      "symbol": "</>",
+      "className": "vscode-icon"
     }
   ]
 }
