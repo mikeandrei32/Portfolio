@@ -38,7 +38,8 @@ Reference: [Vite on Vercel](https://vercel.com/docs/frameworks/frontend/vite).
 
 - `src/data/profile.json`: name, introduction, education, skills, and tools, bundled directly with React.
 - `src/components/Home.jsx` and `src/components/About.jsx`: Home and About content.
-- `src/App.jsx`: navigation, footer, and placeholder Projects section.
+- `src/App.jsx`: navigation, footer, and section composition.
+- `src/components/Projects.jsx`: Appointly project details, technologies, and repository link. Its dashboard image in `public/images/projects` comes from the Appointly repository and uses demo data.
 - `src/components/Certificates.jsx`: certificate cards and image links.
 - `src/components/Contact.jsx`: contact section with social profile links.
 - `src/data/socialLinks.js`: shared GitHub, Instagram, and LinkedIn details for the header and Contact section.

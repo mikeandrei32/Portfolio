@@ -4,6 +4,7 @@ import About from './components/About.jsx';
 import SocialLinks from './components/SocialLinks.jsx';
 import Certificates from './components/Certificates.jsx';
 import Contact from './components/Contact.jsx';
+import Projects from './components/Projects.jsx';
 import profile from './data/profile.json';
 
 const sections = ['Home', 'About', 'Projects', 'Certificates', 'Contact'];
@@ -44,7 +45,7 @@ export default function App() {
       <Home profile={profile} />
       <About profile={profile} />
       <div className="upcoming-sections">
-        <section id="projects" className="pending-section section" aria-labelledby="projects-heading"><span className="pending-icon" aria-hidden="true">⌘</span><div><p className="eyebrow">Projects</p><h2 id="projects-heading">Things I'm building.</h2><p>Project details are coming soon.</p></div><span className="coming-soon">Coming soon</span></section>
+        <Projects />
         <Certificates />
         <Contact />
       </div>
